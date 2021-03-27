@@ -1,0 +1,26 @@
+.nav {
+    background: #242424;
+    height: 100vh;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    line-height: 60px;
+    color: white;
+    font-size: 30px;
+}
+
+.nav a:hover {
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 2px 2px grey;
+}
+
+.nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding-top: 80px;
+    font-size: 130%;
+    line-height: 90px;
+}

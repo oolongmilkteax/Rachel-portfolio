@@ -1,0 +1,33 @@
+.home {
+    background-color: white;
+}
+
+.profilepic {
+    width : 300px;
+    height : 350px;
+    max-width : 300px;
+    max-height: 350px;
+    border-radius: 50%;
+    border: 5px solid black;
+    position:absolute;
+    top:15%;
+    left:50%;
+    transform:translate(-50%,0%);
+}
+
+#typing {
+    font-weight: bold;
+    top:70%;
+    position: absolute;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.home span {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-size: 20px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
