@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Widecard from '../components/Widecard';
 import './Education.css';
-import Social from '../components/Social'
 
 class Education extends Component {
     render() {
