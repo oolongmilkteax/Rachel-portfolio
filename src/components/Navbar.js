@@ -6,14 +6,12 @@ class Navbar extends Component {
     render() {
         return (
         <nav className = "nav"> 
-            <ul>
-                <li>
+            <p>
                     <Link to = "/">Home</Link><br></br>
                     <Link to = "/about">About</Link><br></br>
                     <Link to = "/education">Education</Link><br></br>
                     <Link to = "/contact">Contact</Link>
-                </li>
-            </ul>
+            </p>
         </nav>)
     }
 } export default Navbar

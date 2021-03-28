@@ -1,6 +1,7 @@
 .nav {
     background: #242424;
     height: 100vh;
+    text-align: center;
 }
 
 .nav a {
@@ -17,8 +18,7 @@
     text-shadow: 2px 2px grey;
 }
 
-.nav ul {
-    text-align: center;
+.nav p {
     list-style-type: none;
     padding-top: 80px;
     font-size: 130%;
