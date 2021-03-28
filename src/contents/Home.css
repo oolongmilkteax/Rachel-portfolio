@@ -1,5 +1,7 @@
 .home {
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .profilepic {
@@ -17,14 +19,14 @@
 
 #typing {
     font-weight: bold;
-    top:60%;
+    top:65%;
     position: absolute;
     font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 .home span {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,0%);
     font-size: 20px;
