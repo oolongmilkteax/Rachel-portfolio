@@ -18,7 +18,6 @@ function App() {
     <Router>
       <div className="App">
         <div className = "header">
-          <span> </span><br></br>
           <Link to = "/nav"><FontAwesomeIcon icon = {faBars} size = "3x" /></Link>
         </div>
         <div className="content"> 
