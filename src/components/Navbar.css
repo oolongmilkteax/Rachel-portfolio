@@ -11,7 +11,7 @@
     text-align: center;
     transform: translate(0, -21px);
     position: absolute;
-    width: 25%;
+    width: 20%;
 }
 
 .nav a {
@@ -19,13 +19,14 @@
     font-family: Avenir, Helvetica, Arial, sans-serif;
     color: white;
     line-height: 0px;
-    font-size: 30px;
+    font-size: 100%;
 }
 
 .nav a:hover {
-    font-weight: bolder;
+    font-size: 110%;
     text-shadow: 2px 2px grey;
     border: 2px solid white;
+    padding: 1%;
 }
 
 .nav p {
