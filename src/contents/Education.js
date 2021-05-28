@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Widecard from '../components/Widecard';
+import nus from '../img/nus.jpg';
 import './Education.css';
+
 
 class Education extends Component {
     render() {
@@ -10,7 +12,7 @@ class Education extends Component {
                 <div className="educationcontent">
                     <Widecard 
                     link = "https://www.nus.edu.sg"
-                    image= "https://www.nus.edu.sg/images/default-source/identity-images/NUS_logo_full-horizontal.jpg"
+                    image= {nus}
                     where="National University of Singapore" 
                     from="Aug 2019" 
                     to="Present"

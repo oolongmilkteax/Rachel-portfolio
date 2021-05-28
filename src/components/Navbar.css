@@ -1,27 +1,35 @@
-.nav {
-    background: #242424;
-    height: 100vh;
+.header {
+    background-color: black;
+    padding: 10px;
+    line-height: 2px;
+    color: white;
+    padding-left: 30px;
+}
+
+.nav p{
+    background: black;
     text-align: center;
-    transform: translate(0, -21px)
+    transform: translate(0, -21px);
+    position: absolute;
+    width: 25%;
 }
 
 .nav a {
     text-decoration: none;
     font-family: Avenir, Helvetica, Arial, sans-serif;
-    line-height: 60px;
     color: white;
+    line-height: 0px;
     font-size: 30px;
 }
 
 .nav a:hover {
     font-weight: bolder;
-    font-size: 40px;
     text-shadow: 2px 2px grey;
+    border: 2px solid white;
 }
 
 .nav p {
     list-style-type: none;
-    padding-top: 80px;
     font-size: 130%;
     line-height: 90px;
 }

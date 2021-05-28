@@ -1,14 +1,4 @@
 .App {
-  min-height: 100vh;
-}
-
-.header {
-  background-color: black;
-  padding: 10px;
-  line-height: 2px;
-}
-
-.header a {
-  color: white;
-  padding: 20px;
+  min-height: 90vh;
+  height: 90vh;
 }
