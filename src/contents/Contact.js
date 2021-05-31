@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './Contact.css'
-import Social from '../components/Social'
 
 class Contact extends Component {
     render() {
@@ -14,7 +13,6 @@ class Contact extends Component {
                         Mobile: 9157 8163
                     </p>
                 </div>
-            <Social/>
         </div>
         )
     }

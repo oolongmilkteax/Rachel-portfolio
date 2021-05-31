@@ -1,6 +1,7 @@
 .contact {
     padding: 20px;
     font-family: Avenir, Helvetica, Arial, sans-serif;
+    min-height: 70vh;
 }
 
 .contactcontent {
