@@ -1,5 +1,10 @@
 .App {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: #212121;
+}
+
+.content {
+  min-height: 80vh;
 }
 
 Social {

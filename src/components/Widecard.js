@@ -6,9 +6,11 @@ class Widecard extends Component {
         return (
         <div class="widecard">
             <div class="compdet">
-                <a href = {this.props.link}  target="_blank" rel="noreferrer"><img className="edu" src={this.props.image} alt="School"></img></a>
-                <h4 class="secondtext">{this.props.where}</h4>
-                <h4 class="secondtext">{this.props.from} - {this.props.to}</h4>
+                <a href = {this.props.link}  target="_blank" rel="noreferrer">
+                    <img className="edu" src={this.props.image} alt="School"></img>
+                    <h4 className="text">{this.props.text}</h4>
+                    <h4 className="text">{this.props.secondtext}</h4>
+                </a>
             </div>
         </div>
         )

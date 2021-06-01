@@ -1,13 +1,5 @@
 .educationpage {
     padding: 20px;
     font-family: Avenir, Helvetica, Arial, sans-serif;
-    min-height: 74.75vh;
-}
-
-.educationcontent {
     text-align: center;
-}
-
-.subtopic {
-    padding-top: 20px;
 }

@@ -8,27 +8,24 @@ class Education extends Component {
     render() {
         return (
             <div className="educationpage">
-                <h1 className="educationheading">My Education</h1>
+                <h1 className="educationheading">My Education <i class="fas fa-graduation-cap"></i></h1>
                 <div className="educationcontent">
                     <Widecard 
                     link = "https://www.nus.edu.sg"
                     image= {nus}
-                    where="National University of Singapore" 
-                    from="Aug 2019" 
-                    to="Present"
+                    text="National University of Singapore" 
+                    secondtext="Aug 2019 - Present"
                     />
                     <Widecard 
                     link = "https://tmjc.moe.edu.sg/our-heritage/meridian-jc"
                     image = "https://www.kingmaker.com.sg/wp-content/uploads/sites/10/2016/07/MJC.png"
-                    where="Meridian Junior College" 
-                    from="2017" 
-                    to="2018"/>
+                    text="Meridian Junior College" 
+                    secondtext="2017 - 2018"/>
                     <Widecard 
                     link = "https://anglicanhigh.moe.edu.sg"
                     image = "https://upload.wikimedia.org/wikipedia/en/b/ba/Anglican_High_School_Crest.png"
-                    where="Anglican High School" 
-                    from="2013" 
-                    to="2016"/>
+                    text="Anglican High School" 
+                    secondtext="2013 - 2016"/>
                 </div>
             </div>
         )

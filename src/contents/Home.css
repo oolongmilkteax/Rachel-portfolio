@@ -1,33 +1,33 @@
 .home {
-    background-color: white;
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
 }
 
 .profilepic {
-    width : 240px;
-    height : 280px;
+    width : 300px;
+    height : 340px;
     max-width : 300px;
     max-height: 350px;
     border-radius: 50%;
-    border: 5px solid black;
+    border: 5px solid #212121;
     position:absolute;
-    top:15%;
+    top:15vh;
     left:50%;
-    transform:translate(-50%,0%);
+    transform:translate(-50%,0);
 }
 
 #typing {
+    background-color: white;
     font-weight: bold;
-    top:65%;
+    top:75%;
     position: absolute;
     font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 .home span {
+    background-color: white;
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,0%);
     font-size: 20px;

@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
 import './Contact.css'
+import Widecard from '../components/Widecard';
+import contactpic from '../img/contact.jpg';
 
 class Contact extends Component {
     render() {
         return (
             <div className="contactpage">
-                <div className="contact">
-                    <h1 className="contactheader">Contact Me:</h1>
-                    <p className="contactcontent">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvREPlK4wDiySVN-SHaZH2hWupyU2Y65sxkg&usqp=CAU" alt="Contact"></img><br></br>
-                        Email: rachelllhooo@gmail.com<br></br>
-                        Mobile: 9157 8163
-                    </p>
-                </div>
+                <h1 className="contactheading">Contact Me <i class="fas fa-phone"></i></h1>
+                <Widecard 
+                    link = "mailto: rachelllhooo@gmail.com"
+                    image= {contactpic}
+                    text= "Email: rachelllhooo@gmail.com"
+                    secondtext= "Mobile: 9157 8163"
+                />
         </div>
         )
     }

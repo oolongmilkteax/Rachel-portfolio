@@ -1,12 +1,5 @@
-.contact {
+.contactpage {
     padding: 20px;
     font-family: Avenir, Helvetica, Arial, sans-serif;
-    min-height: 74.75vh;
-}
-
-.contactcontent {
-    padding-top: 20px;
-    line-height: 30px;
-    font-size: 20px;
     text-align: center;
 }
