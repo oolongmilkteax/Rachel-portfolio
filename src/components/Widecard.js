@@ -7,7 +7,7 @@ class Widecard extends Component {
         <div class="widecard">
             <div class="compdet">
                 <a href = {this.props.link}  target="_blank" rel="noreferrer">
-                    <img className="edu" src={this.props.image} alt="School"></img>
+                    <img className="edu" src={this.props.image} alt="Contact Me"></img>
                     <h4 className="text">{this.props.text}</h4>
                     <h4 className="text">{this.props.secondtext}</h4>
                 </a>
